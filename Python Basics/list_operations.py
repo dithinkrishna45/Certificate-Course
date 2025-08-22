@@ -46,24 +46,24 @@ grossery = [
     {"item":"Biscut","qty":2,"price":50}
 ]
 
-# print(grossery)
+print(grossery)
 
-while True:
-    print("******Menu*******")
-    print("\n1.Add\n2.View\n3.Exit")
-    choice = int(input("Enter Your Choice :"))
-    if choice == 3:
-        break
-    elif choice == 1 :
-        uitem = input("Enter a item :")
-        uqty = input("Enter a Quantity :")
-        uprice = input("Enter a Price :")
+# while True:
+#     print("******Menu*******")
+#     print("\n1.Add\n2.View\n3.Exit")
+#     choice = int(input("Enter Your Choice :"))
+#     if choice == 3:
+#         break
+#     elif choice == 1 :
+#         uitem = input("Enter a item :")
+#         uqty = input("Enter a Quantity :")
+#         uprice = input("Enter a Price :")
 
-        grossery[item]=item
+#         grossery[item]=item
 
 
-    elif choice == 2 :
+#     elif choice == 2 :
 
     
-    else:
-        print("Invalid Input !!")
+#     else:
+#         print("Invalid Input !!")
