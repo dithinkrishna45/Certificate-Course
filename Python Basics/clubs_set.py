@@ -1,1 +1,0 @@
-clubs = {"dance","music"}
