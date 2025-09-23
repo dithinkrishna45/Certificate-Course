@@ -1,7 +1,6 @@
 # 1. Import necessary libraries
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras.models import Sequential
 from tensorflow.keras import layers, models
 import matplotlib.pyplot as plt
 
