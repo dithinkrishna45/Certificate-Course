@@ -22,3 +22,17 @@ model = LinearRegression()
 model.fit(X_train, y_train)
 accuracy = model.score(X_test, y_test)
 print("Model Accuracy:", accuracy)
+
+y_pred = model.predict(X_test)
+
+
+plt.scatter(X, y, color='blue')
+plt.plot(X, model.predict(X), color='red')
+plt.xlabel("Study Hours")
+plt.ylabel("Marks")
+plt.title("Study Hours vs Marks")
+plt.show()
+
+user_hours = float(input("Enter number of study hours: "))
+predicted_marks = model.predict([[user_hours]])[0]
+print(f"Predicted Marks for {user_hours} study hours: {predicted_marks:.2f}")
